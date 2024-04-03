@@ -1,0 +1,19 @@
+package elenco;
+
+import java.util.Scanner;
+
+public class Garro2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner ler = new Scanner(System.in);
+		System.out.println("Digite um nome:");
+		String nom1 = ler.next();
+		System.out.println("Digite um nome:");
+		String nom2 = ler.next();
+		System.out.println(nom1.equals(nom2)?"Igual":"Diferente");
+
+	}
+
+}
