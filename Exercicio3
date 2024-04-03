@@ -1,0 +1,28 @@
+package elenco;
+
+import java.util.Scanner;
+
+public class Garro2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner ler = new Scanner(System.in);
+		double nota1,nota2,nota3,nota4,x;
+		
+		System.out.println("Informe primeira nota:");
+		nota1 = ler.nextDouble();
+		System.out.println("Informe segunda nota:");
+		nota2 = ler.nextDouble();
+		System.out.println("Informe terceira nota:");
+		nota3 = ler.nextDouble();
+		System.out.println("Informe quarta nota:");
+		nota4 = ler.nextDouble();
+		
+		x = (nota1+nota2+nota3+nota4)/4;
+	
+		System.out.println(x >= 6 ? "Aprovado":"Reprovado");
+		ler.close();
+	}
+      
+}
