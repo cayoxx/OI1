@@ -12,30 +12,30 @@ public class Maycon {
 		
 		while (true) {
 		System.out.println("========================");
-		System.out.println("Informe o dia da semana: ");
+		System.out.println("Informe o dia da semana (1 a 7): ");
 		dia = ler.nextInt();
 		
 		switch (dia) {
 		case 1:
-			System.out.println("Domingo!");
+			System.out.println("É Domingo!");
 			break;
 		case 2:
-			System.out.println("Segunda!");
+			System.out.println("É Segunda!");
 			break;
 		case 3:
-			System.out.println("Terça!");
+			System.out.println("É Terça!");
 			break;
 		case 4:
-			System.out.println("Quarta!");
+			System.out.println("É Quarta!");
 			break;
 		case 5:
-			System.out.println("Quinta!");
+			System.out.println("É Quinta!");
 			break;
 		case 6:
-			System.out.println("Sexta!");
+			System.out.println("É Sexta!");
 			break;
 		case 7:
-			System.out.println("Sábado!");
+			System.out.println("É Sábado!");
 			break;
 		default:
 			System.out.println("Inválido.");
